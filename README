@@ -1,0 +1,12 @@
+
+In Working Dir
+
+	For pushing on github
+		git init
+		git add . <OR FILE_NAME>
+		git commit -m "first commit"
+		git remote add <APP_NAME> https://github.com/prityaa/Workspace.git
+		git push -u <APP_NAME> master
+
+	For pulling repo on local machine
+		git clone   https://github.com/prityaa/Workspace.git
