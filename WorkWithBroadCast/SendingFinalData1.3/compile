@@ -1,0 +1,4 @@
+gcc -DDEBUG -o  broadcast broadcast.c  && 
+gcc -DDEBUG -o listener listener.c  && 
+scp broadcast listener vinayak@10.1.1.135:/home/vinayak && 
+scp broadcast listener akhilesh@10.1.1.176:/home/akhilesh

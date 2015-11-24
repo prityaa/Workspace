@@ -1,0 +1,17 @@
+Client
+start 
+1 . Create socket, and broadcast "who" msge to network
+2 . Get IP address as a response from broadcasted hosts using select and store IPs in buffer.
+3 . close socket.
+4 Create threads for no of IPs stored in buffer and send data for each of them
+ by creating new sockets.
+
+
+sever
+1 . Create socket 
+2 . recieve broadcast msge of "who" and send IP as a response to broadcaster.
+3 . close socket
+4 . Create new thread for recieving the data.
+
+
+

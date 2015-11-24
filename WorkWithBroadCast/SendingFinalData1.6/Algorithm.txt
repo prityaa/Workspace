@@ -1,0 +1,24 @@
+
+/*** algorithm ***/
+
+Client (Broadcaster UDP)
+	start 
+	1 . Create socket, and broadcast "who" msge to network
+	2 . Get IP address as a response from broadcasted hosts using select and store IPs in buffer.
+	3 . close socket.
+	4 Create threads for no of IPs stored in buffer and send data for each of them
+	 by creating new sockets.
+
+sever (Listener UDP)
+
+	1 . Start 
+	2 . Create Socket and bind the port to socket. 
+	3 . Recieve Data, "WHO" From broadcaster 
+	4 . Send Back IP and MAC address as a response.
+	5 . close the port (Socket).
+	6 . Open new socket for recieving data continuously.
+	7 . Send acknowledge for each data.
+
+
+
+
